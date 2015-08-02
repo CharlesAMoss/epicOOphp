@@ -12,7 +12,7 @@ Creates the class TEAM, which contains several properties ( ie. name, home, ect.
 Creates four instances of the TEAM class using it's constructor method and creates an array of them. 
 
 
-**index.php**
+**index.php** [view demo here](http://www.charlesamoss.com/epicodus/epicOOP/)
 Finally a for loop is used to iterate through the array calling get info. The result is the display of the properties as mark up.
 
 #####I have incorporated info gained from [learnhowtoprogram](https://www.learnhowtoprogram.com) and [treehoouse](http://teamtreehouse.com/library/objectoriented-php-basics)
