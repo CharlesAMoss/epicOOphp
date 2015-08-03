@@ -63,7 +63,7 @@ include('inc/teams.php') ?>
 						<?php
 
 							foreach ($teams as $team) {
-								echo "<li class=\"teams__item group\">";
+								echo "\r\n\t\t\t<li class=\"teams__item group\">";
 								echo $team->getinfo();
 								echo "</li>";
 

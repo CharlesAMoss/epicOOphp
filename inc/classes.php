@@ -23,8 +23,12 @@ class Team
 	}
 
 	public function getInfo(){
-		return "<span class=\"teams__sport\">" . $this->sport . ":</span><img class=\"teams__logo\" style=\"background-color:" . $this->color . ";\" src=\"image/" . $this->logo . "\" /><span class=\"teams__name\">" . $this->city . " " . $this->name . "</span><p class=\"teams__info\">" . $this->home . " is where they play. They Have won " . ($this->champ == 1 ? $this->champ . " championship" : $this->champ . " championships") . ". My favorite player is " . $this->favPlayer . ".</p>";
+		return "\r\n\t\t\t\t<span class=\"teams__sport\">" . $this->sport . ":</span>\r\n
+				<img class=\"teams__logo\" style=\"background-color:" . $this->color . ";\" src=\"image/" . $this->logo . "\" />\r\n
+				<span class=\"teams__name\">" . $this->city . " " . $this->name . "</span>\r\n
+				<p class=\"teams__info\">" . $this->home . " is where they play. They have won " . ($this->champ == 1 ? $this->champ . " championship" : $this->champ . " championships") . ". My favorite player is " . $this->favPlayer . ".</p>\r";
 	}
 }
 
 ?>
+
